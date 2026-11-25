@@ -1,6 +1,6 @@
 # learning-workflow
 
-两个学习仓库（[AI-Infra-Learning](https://github.com/lingquan11/AI-Infra-Learning)、[IC-Design-Learning](https://github.com/lingquan11/IC-Design-Learning)）共用的工作流：规则、提示词、模板和进度脚本的**唯一来源**。（[cpp-matmul-performance](https://github.com/lingquan11/cpp-matmul-performance) 的 C0 收尾仍用 2026-11-25 之前的旧版，不再同步。）
+三个学习仓库（[cpp-matmul-performance](https://github.com/lingquan11/cpp-matmul-performance)、[AI-Infra-Learning](https://github.com/lingquan11/AI-Infra-Learning)、[IC-Design-Learning](https://github.com/lingquan11/IC-Design-Learning)）共用的工作流：规则、提示词、模板和进度脚本的**唯一来源**。
 
 ## 三栏学习
 | 栏 | 谁 | 怎么做 |
