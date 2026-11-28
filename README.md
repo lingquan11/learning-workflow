@@ -1,6 +1,6 @@
 # learning-workflow
 
-三个学习仓库（[cpp-matmul-performance](https://github.com/lingquan11/cpp-matmul-performance)、[AI-Infra-Learning](https://github.com/lingquan11/AI-Infra-Learning)、[IC-Design-Learning](https://github.com/lingquan11/IC-Design-Learning)）共用的工作流：规则、提示词、模板和进度脚本的**唯一来源**。
+两个学习仓库（[cpp-matmul-performance](https://github.com/lingquan11/cpp-matmul-performance)、[IC-Design-Learning](https://github.com/lingquan11/IC-Design-Learning)）共用的工作流：规则、提示词、模板和进度脚本的**唯一来源**。AI-Infra-Learning 已于 2026-11-27 退出，改作 [ai-infra-plan](https://github.com/lingquan11/ai-infra-plan) 的代码仓库。
 
 ## 三栏学习
 | 栏 | 谁 | 怎么做 |
@@ -12,7 +12,7 @@
 
 ## 同步
 ```bash
-python sync.py ../AI-Infra-Learning
+python sync.py ../cpp-matmul-performance
 python sync.py ../IC-Design-Learning
 ```
 同步会写入学习仓库的 `start/WORKFLOW.lock`；学习仓库的 CI 运行 `progress.py --check`，共享文件被直接修改时会变红。**要改共享文件，只改这里，再重新同步。**
